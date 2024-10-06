@@ -1,0 +1,30 @@
+.shakeUserHand{
+    animation: userShakeHand 0.6s infinite ease-in-out;
+}
+.shakeComputerHand{
+    animation: shakeComputerHand 0.5s infinite ease-in-out;
+}
+
+@keyframes userShakeHand{
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(55deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
+@keyframes shakeComputerHand{
+    0%{
+        transform: rotate(0);;
+    }
+    50%{
+        transform: rotate(55deg);;
+    }
+    100%{
+        transform: rotate(0);;
+    }
+}
